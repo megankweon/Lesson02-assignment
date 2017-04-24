@@ -1,0 +1,36 @@
+<html>
+
+<head>
+<title>Lesson 02 Assignment</title>
+</head>
+<script type="text/javascript">
+var submitForm = function() {
+	alert("You have submitted your form!");
+}
+</script>
+<body>
+	<h2>
+		What problems does responsive web design solve?
+	</h2>
+	<p>
+		Responsive web design is a crucial factor in the development of Web 2.0, also known as the modern world wide web. In todays age, multiple types of devices with varying screen sizes and usages can access the web. Without responsive web design, all of these devices, web browsers, and etc will show a static web page that does not scale or show relevant information based on which device the web page is shown on. Responsive web design allows users to render a view on their screen that is tailored to fit their device instead of seeing the same pages across multiple devices. This is called being "cross-compatable." Cross-compatability is crucial in buildling web pages and applications now more than ever since building separate pages or apps for each type of device and screen size would be a waste of a lot of resource.
+	</p>
+
+	<h3>Practice Form</h3>
+	<div>
+	<form action="./index.html">
+		First Name:<br>
+		<input type="text" name="firstname"><br>
+		Last name:<br>
+		<input type="text" name="lastname"><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="male" checked> Male<br>
+		<input type="radio" name="gender" value="female" > Female<br>
+		<input type="radio" name="gender" value="other" > Other<br>
+		<input type="submit" onclick="submitForm()" value="Submit">
+	</form>
+	</div>
+	
+</body>
+
+</html>
